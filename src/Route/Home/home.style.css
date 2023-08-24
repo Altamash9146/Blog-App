@@ -1,0 +1,597 @@
+
+                            /* Banner File  Css */
+.Banner-Main-Container{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Banner-Container{
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute; top: 20%;   
+}
+
+
+.Banner-Img-1{
+ width: 605px; height: 323px; 
+}
+
+.Banner-Img-2{
+    height: 157px; width: 278px;
+    padding-left: 5px;
+}
+
+.Banner-Img-3{
+    height: 157px; width: 278px;
+    padding-top: 3px; padding-left: 5px;
+}
+.Banner-Img-Text{
+    position: absolute; top: 65%; left: -90%;
+    color:brown;
+} 
+
+.Banner-Img2-Text{
+    position: absolute; top: 65%; left: 110%;
+    color: white;
+    line-height: 18px;
+    width: 200px;
+} 
+
+.Banner-Img3-Text{
+    position: absolute; top: 15%; left: 110%;
+    color: white;
+    line-height: 18px;
+    width: 200px;
+} 
+
+
+                                /* Latest File  Css */
+
+.Latest-Container{
+position:absolute; top: 80%; left: 12%;
+}
+
+.Latest-Heading{
+border-bottom: 2px solid red;
+}
+
+
+.Latest-Image-Container{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+position: relative; left: -48px;
+}
+
+.Latest-Image{
+height: 120px; width: 250px;
+}
+
+
+.Latest-Image-Name-Container{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+position: relative; left: -10px;
+}
+
+.Latest-Image-Name{
+border: 2px solid rgba(255, 255, 255, 0);
+width: 230px;
+}
+
+.Latest-Data-Container{
+width: 100%; height: 100px;
+display: flex;
+justify-content:space-evenly;
+position: relative; left: -19px; top: -15px;
+}
+
+.Latest-Description{
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 200px;
+}
+
+
+
+                        /* Latest Article Css */
+.Latest-Article-Container{
+    /* position:absolute; top: 180%; left: 12%; */
+    position: absolute;
+    top: 65rem;
+    left: 12%;
+}
+
+
+.Latest-Article-Heading{
+    border-bottom: 2px solid red;
+}
+
+.Latest-Article-Image-Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Latest-Article-Image{
+    height: 200px; width: 150px;
+    padding: 25px;
+}
+
+.Latest-Article-Data-Container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-97%) translateX(80%);
+
+}
+
+.Advertisement-Container{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+height: 500px; width: 300px;
+position: absolute; top:180%; left: 59%;
+}
+
+                        /* TopPost file CSS */
+
+.Top-Post-Container{
+/* position: absolute; top: 280%; left: 59%; */
+position: absolute;
+transform: translateY(504%);
+left: 59%;
+}
+
+.Top-Post-Heading{
+    border-bottom: 2px solid red;
+}
+
+.Top-post-Image{
+    /* height: 295px; width: 500px;
+    position: absolute;  left: 14%; */
+    height: 214px;
+    width: 431px;
+    position: absolute;
+    left: 14%;
+    transform: translateY(1020%);
+}
+
+
+.Top-post-Image-2{
+    height: 200px ; width: 300px;
+}
+
+
+.Top-Post-Image-Name{
+    width: 240px;
+}
+
+.Top-Post-Image-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; left: -8%;
+}
+
+.Top-Post-Data-Container{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 100%; left: 30%;
+}
+
+.Top-Post-Number-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 73%; left: 90%;
+}
+
+.Top-Post-Image{
+        height: 70px; width: 80px;
+        padding: 15px;
+}
+
+.Number{
+    color: gray;
+}
+
+/* Latest Stories File Css */
+
+.Latest-Stories-Container{
+/* position: absolute; top: 430%; left: 12%; */
+position: absolute;
+transform: translateY(828%);
+left: 12%;
+
+}
+
+.Latest-Stories-Heading{
+ border-bottom: 2px solid red;
+}
+
+.Latest-Stories-Name-Data-Container{
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.Latest-Stories-Name{
+    width: 350px;
+}
+
+.Latest-Stories-Data-Container{
+    border: 2px solid rgba(255, 255, 255, 0) ;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative; top: 1px; 
+}
+
+.Latest-Stories-Data{
+    width: 350px;
+}
+
+.Link-Text{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:856px){
+    .Banner-Container{
+        align-items: center;
+        flex-direction: column;
+        position: absolute; left: 5px; top: 2.7rem;
+        width: 95%;
+    }
+    .Banner-Img-1{
+        height: 200px;
+        width: 103%;
+    }
+
+    .Banner-Img-2{
+        height: 200px;
+        width: 103%;
+        position: relative;
+        left: -7.5px;
+    }
+
+    .Banner-Img-3{
+        height: 200px;
+        width: 103%;
+        position: relative;
+        left: -7.5px;
+    }  
+    .Banner-Img-Text{
+        display: none;
+    }
+    .Banner-Img3-Text{
+        display: none;
+    }
+    .Banner-Img2-Text{
+        display: none;
+    }
+
+    .Latest-Container{
+    position: relative;
+    top: 680px;
+    left: 1%;
+    }
+
+    .Latest-Image-Container{
+        position: relative; left: 0px; top: -90px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Latest-Image{
+        height: 200px; width: 50%;
+    }
+    .LI1{
+            position: relative; top: 80px;
+    }
+
+    .LIN1{
+        position: relative; top: -500px;    left: -70px;
+        width: 55%;
+    }
+    .LD1{
+        position: relative; top: -1210px; left: 220px;
+        width: 100%;
+    }
+
+    .LI2{
+        position: relative; top: 160px;
+    }
+
+    .LIN2{
+        position: relative; top: -445px;    left: -70px;
+        width: 55%;
+    }
+    .LD2{
+        position: relative; top: -925px; left: 100px;
+        width: 100%;
+    }
+
+    .LI3{
+        position: relative; top: 270px;
+    }
+
+    .LIN3{
+        position: relative; top: -380px;    left: -70px;
+        width: 55%;
+    }
+    .LD3{
+        position: relative; top: -620px; left: -20px;
+        width: 100%;
+    }
+    .Latest-Image-Name-Container{
+        position: relative; top: 100px;
+        flex-direction: column;
+    }
+
+    .Latest-Image-Name{
+        margin: 80px;
+    }
+
+    .Advertisement-Container{
+        display: none;
+    }
+ 
+    .Latest-Article-Container{
+        position: relative; left: 0px; top: 160px;
+    }
+
+    .Latest-Article-Image-Container{
+        position: relative; top:-165px; left: -13px;
+    }
+
+    .Latest-Article-Data-Container{
+        /* position: absolute; left: 35%; top:35px ;
+        width: 220px; */
+        position: absolute;
+        left: 35%;
+        transform: translateY(-114%);
+        width: 220px;
+    }
+
+    .Latest-Article-Image{
+    height: 100px; width: 100px;
+    padding-top: 180px;
+    }
+
+    .Kgf{
+        position: relative; top: -55px;
+    }
+
+    .Bahubali{
+        position: relative; top: -120px;
+    }
+
+    .Top-post-Image{
+        display: none;
+    }
+
+    .Top-Post-Container{
+        /* position: relative;
+        left: 1%;
+        top: 0px; */
+        position: relative;
+        left: 1%;
+        transform: translateY(10px);
+    }
+
+    .Top-Post-Image-Container{
+        position: absolute; left: -12.5px;
+    }
+    .Top-Post-Data-Container{
+    top: 361px; left: 99px;
+    }
+    .Top-Post-Number-Container{
+        position: absolute;
+        left: 284px;
+        top: 255px;
+    }
+
+    .Latest-Stories-Container{
+        /* position: relative;
+        top: 350px;
+        left: 1px;
+        width: 90%; */
+        position: absolute;
+        transform: translateY(25%);
+        left: 1px;
+        width: 90%;
+    }
+
+    .Latest-Stories-Name-Data-Container{
+        flex-direction: column;
+        position: relative; top: -120px;
+    }
+
+    .Latest-Stories-Data-Container{
+        flex-direction: column;
+        width: 100%;
+        position: relative; left: 1px; top: -650px;
+    }
+
+    .Latest-Stories-Name{
+        padding-top: 100px;
+    }
+    .Latest-Stories-Data{
+        /* padding-top: 120px; */
+        padding-top: 131px;
+    }
+
+    .LSD2{
+        position: relative; top: -21px;
+    }
+
+    .LSD3{
+        position: relative; top: -41px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .Banner-Container{
+        top: 7%;
+        width: 98%;
+    }
+
+    .Banner-Img-1{
+        width: 822px;
+        height: 500px;
+        position: relative;
+        left: 0px;
+    }
+
+    
+    .Banner-Img-2{
+        width: 822px;
+        height: 500px;
+        position: relative;
+        left: 0px;
+    }
+
+    .Banner-Img-3{
+        width: 822px;
+        height: 500px;
+        position: relative;
+        left: 0px;
+    }
+
+
+    .Latest-Container{
+        position: relative;
+        transform: translateY(70%);
+    }
+
+    .Latest-Image-Name-Container{
+        position: relative;
+        top: 164px;
+    }
+
+    .LIN1{
+        top: -550px;
+    }
+
+    .LD1{
+        position: relative;
+        left: 475px;
+        line-height: 30px;
+        transform: translateY(87%);
+        width: 1025px;
+    }
+
+    .LD2{
+    position: relative;
+    left: 170px;
+    line-height: 30px;
+    transform: translateY(80%);
+    }
+
+    .LD3{
+        position: relative;
+        left: -60px;
+        transform: translateY(97%);
+        line-height: 30px;
+    }
+    .Latest-Article-Container{
+        position: relative;
+        transform: translateY(30%);
+    }
+
+    .Latest-Article-Image {
+        height: 360px;
+        width: 360px;
+    }
+
+    .Latest-Article-Data-Container {
+        position: relative;
+        left: 469px;
+        transform: translateY(-193%);
+        width: 320px;
+    }
+
+    .bhaijan{
+        line-height: 33px;
+    }
+
+    .robot{
+        line-height: 33px;
+    }
+
+
+    .kgf{
+        line-height: 33px;
+    }
+
+    .bahubali{
+        line-height: 33px;
+    }
+
+   .robot-container{
+    position: relative;
+    top: 280px;
+   }
+
+   .kgf-container{
+    position: relative;
+    top: 500px;
+   }
+
+   .bahaubali-container{
+    position: relative;
+    top: 700px;
+   }
+
+    .Top-Post-Container{
+        position: relative;
+        top: -920px;
+    }
+
+    .Advertisement-Container{
+        display: block;
+        display: block;
+        position: relative;
+        top: -193px;
+        width: 325px;
+        left: 400px;
+        height: 656px;
+    }
+
+    .Latest-Stories-Container{
+        position: relative;
+        top: -780px;
+    }
+
+    .lsd2-container{
+        top: -220px;
+        position: relative;
+        left: 400px;
+        width: 278px;
+    }
+   
+    .lsd3-container{
+        position: relative;
+        top: -144px;
+    }
+
+    .lh{
+        line-height: 23px;
+    }
+
+    
+}
+
